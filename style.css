@@ -1,12 +1,78 @@
-.page{
-    background-color: #a63939;
-    width: 1420px;
-    /* margin: 2px; */
-    display: grid;
-    grid-template-columns: 350px 350px;
-    grid-template-rows: 400px;
-    border-radius: 0 0 20px 0;
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
 }
-.btn{
-    width: 10px;
+
+.input-text {
+    width: 100%;
+    padding: 10px 5px;
+    border: 0.5px solid;
+    border-radius: 5px;
+
+    &::placeholder {
+        font-size: 12px;
+    }
+}
+
+.input-group {
+    min-width: 355px;
+    width: 100%;
+}
+
+.remember-me {
+    font-size: 12px;
+
+}
+
+.forgot-password {
+    font-size: 12px;
+    margin-left: 150px;
+    color: grey;
+}
+
+.login {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.btn-social-fb {
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+
+.btn-social-twitter {
+    width: 100%;
+    background-color: skyblue;
+    color: white;
+}
+
+.btn-social-google {
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+
+.image {
+    height: 100vh !important;
+    width: 100%;
+}
+
+.fb-icon {
+    width: 20px !important;
+    margin-right: 9px;
+    height: 20px;
+}
+
+.twitter-icon {
+    width: 20px !important;
+    margin-right: 20px;
+    height: 16px;
+}
+
+.google-icon {
+    width: 20px !important;
+    margin-right: 20px;
 }
