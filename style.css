@@ -5,7 +5,7 @@
     padding-top: 110px;
 }
 
-.input-text {
+.input-field {
     width: 100%;
     padding: 10px 5px;
     border: 0.5px solid;
@@ -75,4 +75,18 @@
 .google-icon {
     width: 20px !important;
     margin-right: 20px;
+}
+
+@media screen and (max-width: 575px) {
+    .input-group {
+        min-width: 285px;
+    }
+
+    .forgot-password {
+        margin-left: 75px;
+    }
+
+    .header-text {
+        font-size: 12px;
+    }
 }
