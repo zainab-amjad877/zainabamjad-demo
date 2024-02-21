@@ -9,7 +9,7 @@
     width: 100%;
     padding: 10px 5px;
     border: 0.5px solid;
-    border-radius: 5px;
+    border-radius: 5px !important;
 
     &::placeholder {
         font-size: 12px;
@@ -75,6 +75,10 @@
 .google-icon {
     width: 20px !important;
     margin-right: 20px;
+}
+
+.validatemsg {
+    color: red;
 }
 
 @media screen and (max-width: 575px) {
