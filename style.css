@@ -5,7 +5,7 @@
     padding-top: 110px;
 }
 
-.input-field {
+.form-control {
     width: 100%;
     padding: 10px 5px;
     border: 0.5px solid;
@@ -16,7 +16,7 @@
     }
 }
 
-.input-group {
+.form-group {
     min-width: 355px;
     width: 100%;
 }
@@ -77,12 +77,18 @@
     margin-right: 20px;
 }
 
-.validatemsg {
+.validate-msg {
     color: red;
 }
 
+#password,
+#username,
+#email {
+    border-bottom: 0;
+}
+
 @media screen and (max-width: 575px) {
-    .input-group {
+    .form-group {
         min-width: 285px;
     }
 
@@ -92,5 +98,9 @@
 
     .header-text {
         font-size: 12px;
+    }
+
+    .fields-wrapper {
+        max-width: 273px;
     }
 }

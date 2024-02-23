@@ -23,46 +23,48 @@
               adipisicing </p>
           </div>
           <div class="fields-wrapper">
-            <div class="input-group ">
-              <input type="text" id="username" class="input-field border-bottom-0" placeholder="Username">
-              <p id="usernamecheck" class="validate-msg">Missing Username</p>
-            </div>
-            <div class="input-group ">
-              <input type="email" class="input-field border-bottom-0" placeholder="Email">
-              <p id="emailcheck" class="validate-msg">Email must be valid</p>
-            </div>
-            <div class=" input-group ">
-              <input type=" password" class="input-field border-bottom-0" placeholder="Password">
-              <p id="passcheck" class="validate-msg">Please enter password</p>
-            </div>
-            <div class=" input-group mb-3">
-              <input type="password" class="input-field " placeholder="Confirm">
-              <p id="conpasscheck" class="validate-msg">Mis-match password</p>
-            </div>
-            <div class="form-check display-flex">
-              <input class="form-check-input" type="checkbox" id="flexCheckDefault">
-              <label class="remember-me text-secondary" for="flexCheckDefault">
-                Remember me
-              </label>
-              <a class="forgot-password">Forgot Password</a>
-            </div>
-            <div class="input-group mb-3">
-              <button class="btn btn-primary login border-0" type="button" id="button-addon1">Log In</button>
-            </div>
+            <form>
+              <div class="form-group">
+                <input type="text" id="username" class="form-control" placeholder="Username" required>
+                <small id="usernamecheck" class="validate-msg"></small>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" class="form-control" placeholder="Email" required>
+                <small id="emailcheck" class="validate-msg"></small>
+              </div>
+              <div class="form-group">
+                <input type="password" id="password" class="form-control" placeholder="Password" required>
+                <small id="passcheck" class="validate-msg"></small>
+              </div>
+              <div class="form-group mb-3">
+                <input type="password" id="confirmpassword" class="form-control" placeholder="Confirm" required>
+                <small id="conpasscheck" class="validate-msg"></small>
+              </div>
+              <div class="form-check display-flex">
+                <input class="form-check-input" type="checkbox" id="flexCheckDefault">
+                <label class="remember-me text-secondary" for="flexCheckDefault">
+                  Remember me
+                </label>
+                <a class="forgot-password">Forgot Password</a>
+              </div>
+              <div class="input-group mb-3">
+                <button class="btn btn-primary login border-0" type="submit" id="submitbtn">Log In</button>
+              </div>
+            </form>
             <p class="text-center text-secondary">-or-</p>
 
             <div class="input-group mb-3">
-              <button class="btn btn-outline-secondary btn-social-fb border-0" type="button" id="button-addon2">
+              <button class="btn btn-outline-secondary btn-social-fb border-0" type="submit" id="button-addon2">
                 <img src="Images/fb.svg" class="fb-icon">Login with
                 Facebook</button>
             </div>
             <div class="input-group mb-3">
-              <button class="btn btn-outline-secondary btn-social-twitter border-0" type="button" id="button-addon3">
+              <button class="btn btn-outline-secondary btn-social-twitter border-0" type="submit" id="button-addon3">
                 <img src="Images/twitter.svg" class="twitter-icon">Login with
                 Twitter</button>
             </div>
             <div class="input-group mb-3">
-              <button class="btn btn-outline-secondary btn-social-google border-0" type="button" id="button-addon4">
+              <button class="btn btn-outline-secondary btn-social-google border-0" type="submit" id="button-addon4">
                 <img src="Images/google.svg" class="google-icon">Login with
                 Google</button>
             </div>
